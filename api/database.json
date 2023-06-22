@@ -1,0 +1,31 @@
+{
+    "clowns" : [
+        {
+            "id" : 1,
+            "name" : "The Big Loblonski"
+        }, {
+            "id" : 2,
+            "name" : "Lollipop"
+        }
+    ],
+    "requests" : [
+        {
+            "id": 1,
+            "customerName": "Culver Antic",
+            "childName": "Benny",
+            "address": "6 Fair Oaks Street",
+            "reservationDate": "6/27/2022",
+            "partySize": 13,
+            "partyLength": 4
+        }, {
+            "id": 2,
+            "customerName": "Broddie Normansell",
+            "childName": "Sydney",
+            "address": "3 Boyd Lane",
+            "reservationDate": "12/29/2022",
+            "partySize": 28,
+            "partyLength": 5
+      }
+    ],
+    "booking" : []
+}

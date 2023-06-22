@@ -1,0 +1,6 @@
+.container {
+    border: red dotted 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90dvw
+}
