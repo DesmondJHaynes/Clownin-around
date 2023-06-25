@@ -1,31 +1,70 @@
 {
-    "clowns" : [
-        {
-            "id" : 1,
-            "name" : "The Big Loblonski"
-        }, {
-            "id" : 2,
-            "name" : "Lollipop"
-        }
-    ],
-    "requests" : [
-        {
-            "id": 1,
-            "customerName": "Culver Antic",
-            "childName": "Benny",
-            "address": "6 Fair Oaks Street",
-            "reservationDate": "6/27/2022",
-            "partySize": 13,
-            "partyLength": 4
-        }, {
-            "id": 2,
-            "customerName": "Broddie Normansell",
-            "childName": "Sydney",
-            "address": "3 Boyd Lane",
-            "reservationDate": "12/29/2022",
-            "partySize": 28,
-            "partyLength": 5
-      }
-    ],
-    "booking" : []
+  "clowns": [
+    {
+      "id": 1,
+      "name": "The Big Loblonski"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "requests": [
+    {
+      "customerName": "helldp",
+      "childName": "dklsj;dkl;a",
+      "address": "djaklf;j;l",
+      "reservationDate": "2023-06-26",
+      "partySize": 4,
+      "partyLength": 4,
+      "id": 1
+    },
+    {
+      "customerName": "dafda",
+      "childName": "dsaffafa",
+      "address": "dafdsa",
+      "reservationDate": "2023-06-28",
+      "partySize": 4,
+      "partyLength": 5,
+      "id": 2
+    },
+    {
+      "customerName": "dafdsafdsa",
+      "childName": "dasfdafda",
+      "address": "fdafdsafd",
+      "reservationDate": "2023-06-27",
+      "partySize": 4,
+      "partyLength": 3,
+      "id": 3
+    },
+    {
+      "customerName": "fewfdaf",
+      "childName": "fdafdafd",
+      "address": "afdsafdaf",
+      "reservationDate": "2024-07-25",
+      "partySize": 185646,
+      "partyLength": 12,
+      "id": 4
+    }
+  ],
+  "completed": [
+    {
+      "requestId": 1,
+      "clownId": 1,
+      "completeionDate": "6/25/2023",
+      "id": 1
+    },
+    {
+      "requestId": 3,
+      "clownId": 2,
+      "completeionDate": "6/25/2023",
+      "id": 2
+    },
+    {
+      "requestId": 2,
+      "clownId": 1,
+      "completeionDate": "6/25/2023",
+      "id": 3
+    }
+  ]
 }

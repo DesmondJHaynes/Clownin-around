@@ -48,3 +48,26 @@ Examples:
   json-server http://example.com/db.json
 
 https://github.com/typicode/json-server
+
+
+************************************
+current Step & Next
+
+/RESERVING A CLOWN
+
+Build the HTML that contains input fields for all of the information that needs to be collected for a person to reserve a clown for a birthday party. Keep referring back to your ERD to make sure you have an input field for each property.
+
+Next, create a function in the data access module that will POST a reservation state object to your API to be saved in permanent storage.
+
+Then create the event listener that collects the user input, constructs a state object for the reservation, and then pass it to your function that you defined above as an argument. Verify that it works by looking in your database.json file as see if a new object is in your reservations resource collection.
+
+....
+
+BUTTONS SCHEDULE > Showing Reservations
+/FETCH BEFORE DISPLAY
+
+You should have created a function in the previous chapter which is responsible for fetching the state of reservations from the API. Update your main module to fetch the data before the HTML is generated and rendered to the browser.
+
+Next, you will need a function to be exported from the data access module which is responsible for returning the application state for reservations. When you have that function written, create a module that will be responsible for generating a list of reservations.
+
+Import the function into that new module and invoke it. Store the returned state into a variable. Then use the map() array method to generate the HTML structure needed to display the list of reservations.
